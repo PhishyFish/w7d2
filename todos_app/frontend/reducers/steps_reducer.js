@@ -3,7 +3,7 @@ import {
   RECEIVE_STEP,
   REMOVE_STEP
 } from '../actions/step_actions';
-import merge from 'lodash/merge'
+import merge from 'lodash/merge';
 
 const stepsReducer = (state = {}, action) => {
   let nextState;
